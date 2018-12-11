@@ -30,3 +30,4 @@ imageElement.setAttribute('src', 'https://www.pakutaso.com/shared/img/thumb/TOMn
  *   - セットするクラス属性値はstyle.cssの中身を参考にする
  *     - 背景色がh1要素の背景色が黄色になればOKです
  */
+titleElement.className ='bg-yellow';
