@@ -11,9 +11,8 @@ titleElement.textContent = 'JSで変更した後のタイトル';
  *     - 「JSで変更した後の説明文」というテキストをセットする
  *   - strong要素を使って「説明文」を強調する
  */
-
-const pElement = document.getElementById('descripsion');
-pElement.innerHTML = 'JSで変更した後の<strong>説明文</strong>';
+const descripsionElement = document.getElementById('descripsion');
+descripsionElement.innerHTML ='JSで変更した後の<strong>説明文</strong>';
 
  /**
   * 課題3: img要素でid属性値が 'profile' のsrc属性値を変更する
@@ -21,8 +20,9 @@ pElement.innerHTML = 'JSで変更した後の<strong>説明文</strong>';
   *     - 自分で用意する
   *     - 「https://www.pakutaso.com/shared/img/thumb/TOMnemuiDSC01757_TP_V1.jpg」を使う
   */
-const profileElement = document.getElementById('profile');
-profileElement.setAttribute('src', 'https://www.pakutaso.com/shared/img/thumb/TOMnemuiDSC01757_TP_V1.jpg');
+
+const imageElement = document.getElementById('profile');
+imageElement.setAttribute('src', 'https://www.pakutaso.com/shared/img/thumb/TOMnemuiDSC01757_TP_V1.jpg');
 
 
 /**
@@ -30,4 +30,3 @@ profileElement.setAttribute('src', 'https://www.pakutaso.com/shared/img/thumb/TO
  *   - セットするクラス属性値はstyle.cssの中身を参考にする
  *     - 背景色がh1要素の背景色が黄色になればOKです
  */
-titleElement.classList.add('bg-yellow');
